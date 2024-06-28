@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ai-webui"
+version = "0.0.1"
+description = "The backend API for the project"
+authors = ["Kalicyh <kalicyh@qq.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = {extras = ["all"], version = "^0.104.1"}
+uvicorn = {extras = ["standard"], version = "^0.24.0.post1"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -3,10 +3,10 @@
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
-    "setup": "npm install && pip3 install poetry && poetry install",
+    "setup": "yarn install && pip3 install poetry && poetry install",
     "fastapi-dev": "poetry run uvicorn api.main:app --reload",
     "next-dev": "next dev",
-    "dev": "concurrently --kill-others-on-fail \"npm run fastapi-dev\" \"npm run next-dev\"",
+    "dev": "concurrently --kill-others-on-fail \"yarn run fastapi-dev\" \"yarn run next-dev\"",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"

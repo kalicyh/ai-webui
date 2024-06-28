@@ -40,19 +40,20 @@
 
 运行以下命令：
 ```sh
-npm run setup
+cp .env.example .env
+yarn run setup
 ```
 
 ### 运行开发服务器
 
 ```sh
-npm run dev
+yarn run dev
 ```
 
 ### 构建生产环境
 
 ```sh
-npm run build
+yarn run build
 ```
 
 ## 许可证

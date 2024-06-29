@@ -1,5 +1,5 @@
 "use client";
-import CardContainer from "@/app/components/Card";
+import CardContainer from "@/containers/Card";
 export default function Home() {
 
   return (

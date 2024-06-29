@@ -7,14 +7,14 @@ export default function About() {
   <div className="flex justify-center">
     <div className="avatar online mt-4 mb-4">
       <div className="w-24 rounded-full">
-        <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" alt="Avatar" />
+        <img src="https://www.loliapi.com/acg/pp/" alt="Avatar" />
       </div>
     </div>
   </div>
   <div className="divider">OR</div>
   <div className="stats shadow mt-4">
     <div className="stat place-items-center">
-      <div className="stat-title">工具界面</div>
+      <div className="stat-title">Downloads</div>
       <div className="stat-value">31K</div>
       <div className="stat-desc">From January 1st to February 1st</div>
     </div>

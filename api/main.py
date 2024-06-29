@@ -34,7 +34,7 @@ posts = [
         "id": 1,
         "title": "Post 1",
         "content": "This is the content of post 1",
-        "image_url": "https://www.dmoe.cc/random.php",
+        "image_url": "https://www.loliapi.com/acg/",
         "order": 2,
         "category": "分类1",
         "timestamp": datetime.now(),

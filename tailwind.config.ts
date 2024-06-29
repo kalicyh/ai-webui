@@ -9,6 +9,7 @@ const config: Config = {
   plugins: [
     require("daisyui"),
     require('@tailwindcss/forms'),
+    require("@tailwindcss/typography"),
   ],
   daisyui: {
     themes: ["light", "dark", "cupcake"], // 可用的主题列表

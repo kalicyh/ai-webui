@@ -1,13 +1,9 @@
 "use client";
-import ThemeToggle from '../ThemeToggle';
-import { useRouter } from 'next/navigation';
+import ThemeToggle from '@/components/ThemeToggle';
+import Link from 'next/link'
 
 
 const NavBar = () => {
-  const router = useRouter();
-  const handleNavigation = (path: string) => {
-    router.push(path);
-  };
 
   return (
     <>
@@ -31,10 +27,10 @@ const NavBar = () => {
             <ul
               tabIndex={0}
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-              <li><a onClick={() => handleNavigation('/')}>Home</a></li>
-              <li><a onClick={() => handleNavigation('/tools')}>Tools</a></li>
-              <li><a onClick={() => handleNavigation('/about')}>About</a></li>
-              <li><a onClick={() => handleNavigation('/admin')}>Admin</a></li>
+              <li><Link href="/">Home</Link></li>
+              <li><Link href="/tools">Tools</Link></li>
+              <li><Link href="/about">About</Link></li>
+              <li><Link href="/dashboard">Dashboard</Link></li>
             </ul>
           </div>
         </div>

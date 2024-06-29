@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import CategoryFilter from '@/src/app/components/card/CategoryFilter';
-import CardContainer from '@/src/app/components/card/CardContainer';
+import CategoryFilter from '@/app/components/card/CategoryFilter';
+import CardContainer from '@/app/components/card/CardContainer';
 
 interface Post {
   id: number;
